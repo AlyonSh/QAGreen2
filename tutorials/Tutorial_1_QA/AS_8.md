@@ -1,5 +1,5 @@
 ---
-title: Tutorial Semaphore Test22
+title: Tutorial_1 QA Green
 description: ADMINTOOL final
 tags: [tutorial>advanced, topic>ABAP Development]
 primary_tag: tutorial>mobile
