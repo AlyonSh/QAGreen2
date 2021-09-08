@@ -1,7 +1,7 @@
 ---
 title: Tutorial_1 QA Green
 description: ADMINTOOL final
-tags: [tutorial>advanced, topic>ABAP Development]
+tags: [tutorial>beginner, topic>big-data, topic>sql, products>sap-hana, products>sap-hana\,-express-edition, tutorial>community]
 primary_tag: tutorial>mobile
 time: 33 min
 ---
