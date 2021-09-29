@@ -1,5 +1,5 @@
 ---
-title: Tutorial_3 QA Green
+title: Tutorial_3 QA Green new
 description: Call a remote function module located in an on-premise system, such as a SAP S/4HANA System, from the ABAP Environment
 auto_validation: true
 time: 45
