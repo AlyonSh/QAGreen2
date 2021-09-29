@@ -1,18 +1,18 @@
 ---
-title: Tutorial_4 QA Green
+title: Tutorial_4 QA Green Changed
 description: Use SAP HANA federation capabilities to query data from other SAP HANA and SAP HANA Data Lake databases using SAP HANA Smart Data Access (SDA).
 auto_validation: true
 time: 10
 tags: [ tutorial>beginner, products>sap-hana, products>sap-hana\,-express-edition, tutorial>community]
 primary_tag: products>sap-hana-cloud
+parser: v2
 ---
 
 ## Prerequisites
  - Two SAP HANA databases and an SAP HANA Data Lake instance
  - You have completed the first 3 tutorials in this group.
 
-## Details
-### You will learn
+## You will learn
   - How to use SAP HANA Smart Data Access (SDA) to access data in other data sources
   - How to create remote connections and virtual tables
 
@@ -28,7 +28,7 @@ For additional details on SAP HANA Smart Data Access (SDA) and SAP HANA Smart Da
 
 ---
 
-[ACCORDION-BEGIN [Step 1: ](Create a tourist review table in SAP HANA Cloud)]
+### Step 1: Create a tourist review table in SAP HANA Cloud
 
 1. From the SAP HANA Cloud Cockpit, open the SAP HANA database explorer.
 
@@ -60,12 +60,12 @@ For additional details on SAP HANA Smart Data Access (SDA) and SAP HANA Smart Da
     SELECT * FROM HOTEL.TOURIST_REVIEWS;
     ```
 
-    ![tourist reviews in HANA Cloud](tourist_reviews_in_HC.png)
+   <!-- border --> ![tourist reviews in HANA Cloud](tourist_reviews_in_HC.png)
 
 [DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 2: ](Create a remote source from SAP HANA, express edition to SAP HANA Cloud)]
+
+### Step 2: Create a remote source from SAP HANA, express edition to SAP HANA Cloud
 
 1. To create a remote source from SAP HANA, express edition to SAP HANA Cloud, open the SAP HANA database explorer from the SAP HANA, express edition.
 
@@ -99,7 +99,7 @@ For additional details on SAP HANA Smart Data Access (SDA) and SAP HANA Smart Da
     Additional details can be found at [CREATE REMOTE SOURCE Statement](https://help.sap.com/viewer/c1d3f60099654ecfb3fe36ac93c121bb/cloud/en-US/20d48343751910149985a2c925e12190.html).
 
 [DONE]
-[ACCORDION-END]
+
 
 [ACCORDION-BEGIN [Step 3: ](Create a virtual table and execute a federated query)]
 In this step, a virtual table named `vt_tourist_reviews` will be created in SAP HANA, express edition. This will enable access to the `tourist_reviews` table that was created in SAP HANA Cloud.   This can be visualized as follows:
